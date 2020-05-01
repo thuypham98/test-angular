@@ -1,0 +1,8 @@
+// $bgColor : #ddd !global;
+$bgColor : #ddd;
+$fontColor: #0054f0;
+
+.customDiv{
+    background: $bgColor;
+    color: $fontColor;
+}

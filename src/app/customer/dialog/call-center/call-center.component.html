@@ -1,0 +1,27 @@
+
+<div class="container" style="min-width: 35em; min-height: 35em;">
+    <div class="row justify-content-end">
+        <div class="col-7">
+                <label for="">From Numbers:</label>
+                <input id="numbers" type="text" class="form-control" [(ngModel)]="fromPhoneNumber"
+                    placeholder="84899199586, 84899199586">
+                <br/>
+                <label for="">Access token:</label>
+                <br/>
+                <textarea id="access_token" rows="10" cols="40" class="form-control" placeholder="Your access token"
+                    [(ngModel)]="access_token"></textarea>
+                <br/>
+                <button id="connect-btn" class="btn btn-outline-primary mr-2 channels-control" tabindex="-1" data-ember-action="1866"
+                    (click)="callConnect()">
+                    Connect
+                </button>
+                <button id="disconnect-btn" class="btn btn-outline-dark channels-control" tabindex="-1" data-ember-action="1866">
+                    Disconnect
+                </button>
+                <!-- <button class="btn btn-primary" type="button" (click)="makeCall()">Goi</button> -->
+                <!-- ​<button class="btn btn-dark" (click)="hiddenPhone()">Hidden</button> -->
+                <!-- <button class="btn btn-success" (click)="startCall()">Call center</button> -->
+                <br /><br />
+        </div>
+    </div>
+</div>
